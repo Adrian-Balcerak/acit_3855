@@ -28,8 +28,8 @@ def report_patrol(body):
 
     #r = requests.post(url, json.dumps(body), headers = h)
 
-    client = KafkaClient(hosts=f'{app_config['events']['hostname']}:{app_config['events']['port']}')
-    topic = client.topics[str.encode(app_config['events']['topic'])]
+    client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
+    topic = client.topics[str.encode(app_config["events"]["topic"])]
     producer = topic.get_sync_producer()
     msg = { "type": event_name, "datetime" :
         datetime.datetime.now().strftime(
@@ -51,7 +51,7 @@ def report_infrared(body):
 
     #r = requests.post(url, json.dumps(body), headers = h)
 
-    client = KafkaClient(hosts=f'{app_config['events']['hostname']}:{app_config['events']['port']}')
+    client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
     topic = client.topics[str.encode(app_config['events']['topic'])]
     producer = topic.get_sync_producer()
     msg = { "type": event_name, "datetime" :
