@@ -44,6 +44,7 @@ services:
       - "8080:8080"
     expose:
       - 8080
+    host: "0.0.0.0"
     depends_on:
       - "kafka"
   storage:
@@ -52,6 +53,7 @@ services:
       - "8090:8090"
     expose:
       - 8090
+    host: "0.0.0.0"
     depends_on:
       - "kafka"
       - "db"
@@ -61,6 +63,7 @@ services:
       - "8100:8100"
     expose:
       - 8100
+    host: "0.0.0.0"
     network_mode: "host"
     depends_on:
       - "storage"
@@ -70,6 +73,7 @@ services:
       - "8110:8110"
     expose:
       - 8110
+    host: "0.0.0.0"
     depends_on:
       - "kafka"
 # Names our volume
