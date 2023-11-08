@@ -1,0 +1,44 @@
+2023-11-05 14:22:02,693 - basicLogger - INFO - Retrieving ReportPatrol at index 1
+2023-11-05 14:22:02,808 - basicLogger - INFO - here
+2023-11-05 14:22:02,833 - basicLogger - INFO - here
+2023-11-05 14:22:02,834 - basicLogger - ERROR - No more messages found
+2023-11-05 14:22:02,835 - basicLogger - ERROR - Could not find Report Patrol at index 1
+2023-11-05 14:22:30,807 - basicLogger - INFO - Retrieving ReportPatrol at index 1
+2023-11-05 14:22:30,916 - basicLogger - INFO - here
+2023-11-05 14:22:30,940 - basicLogger - INFO - here
+2023-11-05 14:22:30,941 - basicLogger - ERROR - No more messages found
+2023-11-05 14:22:30,941 - basicLogger - ERROR - Could not find Report Patrol at index 1
+2023-11-05 14:23:09,381 - basicLogger - INFO - Retrieving ReportPatrol at index 1
+2023-11-05 14:23:09,498 - basicLogger - INFO - {'type': 'PatrolReport', 'datetime': '2023-11-05T12:44:18', 'payload': {'officer_id': '132412', 'reporter': 'Johnny Patrolman', 'status_code': 0, 'timestamp': '2013-08-15T13:15:53.002000+00:00', 'writeup': 'All clear.', 'trace_id': 'b71ae847-3899-4005-b678-759016f4bf2f'}}
+2023-11-05 14:23:09,499 - basicLogger - INFO - 1
+2023-11-05 14:23:09,499 - basicLogger - INFO - 0
+2023-11-05 14:23:09,499 - basicLogger - INFO - here
+2023-11-05 14:23:09,499 - basicLogger - INFO - {'type': 'PatrolReport', 'datetime': '2023-11-05T12:44:19', 'payload': {'officer_id': '132412', 'reporter': 'Johnny Patrolman', 'status_code': 0, 'timestamp': '2013-08-15T13:15:53.002000+00:00', 'writeup': 'All clear.', 'trace_id': '96022f1b-0698-49c3-bc72-6dc8efa905c2'}}
+2023-11-05 14:23:09,499 - basicLogger - INFO - 1
+2023-11-05 14:23:09,500 - basicLogger - INFO - 1
+2023-11-05 14:23:09,500 - basicLogger - INFO - here
+2023-11-05 14:23:09,500 - basicLogger - ERROR - No more messages found
+2023-11-05 14:23:09,500 - basicLogger - ERROR - Could not find Report Patrol at index 1
+2023-11-05 14:25:03,597 - basicLogger - INFO - Retrieving ReportPatrol at index 1
+2023-11-05 14:25:03,721 - basicLogger - INFO - {'type': 'PatrolReport', 'datetime': '2023-11-05T12:44:18', 'payload': {'officer_id': '132412', 'reporter': 'Johnny Patrolman', 'status_code': 0, 'timestamp': '2013-08-15T13:15:53.002000+00:00', 'writeup': 'All clear.', 'trace_id': 'b71ae847-3899-4005-b678-759016f4bf2f'}}
+2023-11-05 14:25:03,721 - basicLogger - INFO - 1
+2023-11-05 14:25:03,721 - basicLogger - INFO - 0
+2023-11-05 14:25:03,721 - basicLogger - INFO - here
+2023-11-05 14:25:03,721 - basicLogger - INFO - {'type': 'PatrolReport', 'datetime': '2023-11-05T12:44:19', 'payload': {'officer_id': '132412', 'reporter': 'Johnny Patrolman', 'status_code': 0, 'timestamp': '2013-08-15T13:15:53.002000+00:00', 'writeup': 'All clear.', 'trace_id': '96022f1b-0698-49c3-bc72-6dc8efa905c2'}}
+2023-11-05 14:25:03,722 - basicLogger - INFO - 1
+2023-11-05 14:25:03,722 - basicLogger - INFO - 1
+2023-11-05 14:25:03,722 - basicLogger - INFO - here
+2023-11-05 14:25:30,197 - basicLogger - INFO - Retrieving ReportPatrol at index 1
+2023-11-05 14:25:30,315 - basicLogger - INFO - {'type': 'PatrolReport', 'datetime': '2023-11-05T12:44:18', 'payload': {'officer_id': '132412', 'reporter': 'Johnny Patrolman', 'status_code': 0, 'timestamp': '2013-08-15T13:15:53.002000+00:00', 'writeup': 'All clear.', 'trace_id': 'b71ae847-3899-4005-b678-759016f4bf2f'}}
+2023-11-05 14:25:30,316 - basicLogger - INFO - 1
+2023-11-05 14:25:30,316 - basicLogger - INFO - 0
+2023-11-05 14:25:30,316 - basicLogger - INFO - here
+2023-11-05 14:25:30,317 - basicLogger - INFO - {'type': 'PatrolReport', 'datetime': '2023-11-05T12:44:19', 'payload': {'officer_id': '132412', 'reporter': 'Johnny Patrolman', 'status_code': 0, 'timestamp': '2013-08-15T13:15:53.002000+00:00', 'writeup': 'All clear.', 'trace_id': '96022f1b-0698-49c3-bc72-6dc8efa905c2'}}
+2023-11-05 14:25:30,317 - basicLogger - INFO - 1
+2023-11-05 14:25:30,318 - basicLogger - INFO - 1
+2023-11-05 14:25:30,318 - basicLogger - INFO - here
+2023-11-05 14:26:26,088 - basicLogger - INFO - Retrieving ReportPatrol at index 1
+2023-11-05 14:27:42,835 - basicLogger - INFO - Retrieving InfraredtPatrol at index 1
+2023-11-05 14:31:02,971 - basicLogger - INFO - Retrieving InfraredtPatrol at index 1000
+2023-11-05 14:31:04,116 - basicLogger - ERROR - Could not find Report Patrol at index 1000
+2023-11-05 14:31:08,768 - basicLogger - INFO - Retrieving InfraredtPatrol at index 100

@@ -1,0 +1,757 @@
+2023-10-11 22:03:33,043 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:03:38,053 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:36:50,528 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:37:29,677 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:37:37,932 - basicLogger - ERROR - Status Code not 200
+2023-10-11 22:37:37,932 - basicLogger - INFO - 8 results were received.
+2023-10-11 22:37:39,684 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:37:47,925 - basicLogger - ERROR - Status Code not 200
+2023-10-11 22:37:47,926 - basicLogger - INFO - 8 results were received.
+2023-10-11 22:38:08,757 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:38:16,935 - basicLogger - ERROR - Status Code not 200
+2023-10-11 22:38:16,937 - basicLogger - INFO - 8 results were received.
+2023-10-11 22:38:18,769 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:38:26,939 - basicLogger - ERROR - Status Code not 200
+2023-10-11 22:38:26,940 - basicLogger - INFO - 8 results were received.
+2023-10-11 22:39:33,028 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:39:41,244 - basicLogger - ERROR - Status Code not 200
+2023-10-11 22:39:41,245 - basicLogger - INFO - 8 results were received.
+2023-10-11 22:39:43,036 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:39:51,234 - basicLogger - ERROR - Status Code not 200
+2023-10-11 22:39:51,234 - basicLogger - INFO - 8 results were received.
+2023-10-11 22:42:13,163 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:42:21,380 - basicLogger - ERROR - Status Code not 200
+2023-10-11 22:42:21,380 - basicLogger - INFO - 8 results were received.
+2023-10-11 22:42:55,276 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:43:05,288 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:44:10,862 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:44:20,857 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:50:32,819 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:50:37,822 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:50:42,820 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:50:47,811 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:51:00,483 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:51:10,479 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:51:20,484 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:51:30,478 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:51:40,482 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:51:50,474 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:52:00,479 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:55:16,396 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:55:26,395 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:57:29,939 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 22:57:39,936 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:01:03,142 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:01:11,311 - basicLogger - INFO - no new events
+2023-10-11 23:01:13,137 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:01:21,324 - basicLogger - INFO - no new events
+2023-10-11 23:01:23,144 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:01:31,341 - basicLogger - INFO - no new events
+2023-10-11 23:01:33,137 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:01:41,345 - basicLogger - INFO - no new events
+2023-10-11 23:01:43,137 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:01:51,325 - basicLogger - INFO - no new events
+2023-10-11 23:01:53,135 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:02:01,309 - basicLogger - INFO - no new events
+2023-10-11 23:02:03,141 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:02:11,323 - basicLogger - INFO - no new events
+2023-10-11 23:02:13,133 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:02:21,322 - basicLogger - INFO - no new events
+2023-10-11 23:02:23,142 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:02:31,325 - basicLogger - INFO - no new events
+2023-10-11 23:02:33,141 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:02:41,341 - basicLogger - INFO - no new events
+2023-10-11 23:02:43,133 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:02:51,322 - basicLogger - INFO - no new events
+2023-10-11 23:02:53,134 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:03:01,307 - basicLogger - INFO - no new events
+2023-10-11 23:03:03,141 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:03:11,321 - basicLogger - INFO - no new events
+2023-10-11 23:04:55,324 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:05:03,476 - basicLogger - INFO - no new events
+2023-10-11 23:05:05,318 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:05:13,505 - basicLogger - INFO - no new events
+2023-10-11 23:05:15,318 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:05:23,473 - basicLogger - INFO - no new events
+2023-10-11 23:05:25,325 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:05:33,528 - basicLogger - ERROR - Status Code not 200
+2023-10-11 23:05:33,529 - basicLogger - INFO - 18 results were received.
+2023-10-11 23:05:35,318 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:05:43,499 - basicLogger - ERROR - Status Code not 200
+2023-10-11 23:05:43,499 - basicLogger - INFO - 21 results were received.
+2023-10-11 23:05:45,318 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:23:10,601 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:23:19,263 - basicLogger - INFO - 0 results were received.
+2023-10-11 23:23:20,609 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:23:28,720 - basicLogger - INFO - 14 results were received.
+2023-10-11 23:23:30,600 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:23:38,718 - basicLogger - INFO - 23 results were received.
+2023-10-11 23:23:40,595 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:23:48,773 - basicLogger - INFO - 0 results were received.
+2023-10-11 23:23:50,602 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:23:58,751 - basicLogger - INFO - 0 results were received.
+2023-10-11 23:24:00,602 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:24:08,728 - basicLogger - INFO - 0 results were received.
+2023-10-11 23:24:10,596 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:24:18,739 - basicLogger - INFO - 0 results were received.
+2023-10-11 23:24:20,610 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:24:28,787 - basicLogger - INFO - 0 results were received.
+2023-10-11 23:24:30,593 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:24:38,712 - basicLogger - INFO - 14 results were received.
+2023-10-11 23:24:40,602 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:24:48,743 - basicLogger - INFO - 27 results were received.
+2023-10-11 23:24:50,600 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:24:58,738 - basicLogger - INFO - 25 results were received.
+2023-10-11 23:25:00,594 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:25:08,734 - basicLogger - INFO - 27 results were received.
+2023-10-11 23:25:10,594 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:25:18,737 - basicLogger - INFO - 16 results were received.
+2023-10-11 23:25:20,593 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:25:28,763 - basicLogger - INFO - 0 results were received.
+2023-10-11 23:26:01,920 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:26:10,068 - basicLogger - INFO - 2 results were received.
+2023-10-11 23:26:11,907 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:26:20,073 - basicLogger - INFO - 24 results were received.
+2023-10-11 23:26:21,914 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:26:30,045 - basicLogger - INFO - 28 results were received.
+2023-10-11 23:30:28,534 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:30:36,730 - basicLogger - INFO - 6 results were received.
+2023-10-11 23:30:38,528 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:30:46,701 - basicLogger - INFO - 27 results were received.
+2023-10-11 23:30:48,532 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:30:56,701 - basicLogger - INFO - 27 results were received.
+2023-10-11 23:36:36,858 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:36:45,022 - basicLogger - INFO - 73 results were received.
+2023-10-11 23:36:46,871 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:36:55,047 - basicLogger - INFO - 97 results were received.
+2023-10-11 23:37:41,056 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:37:49,269 - basicLogger - INFO - 187 results were received.
+2023-10-11 23:37:51,061 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:37:59,221 - basicLogger - INFO - 210 results were received.
+2023-10-11 23:38:01,065 - basicLogger - INFO - Start Periodic Processing
+2023-10-11 23:38:09,270 - basicLogger - INFO - 230 results were received.
+2023-10-12 08:48:14,433 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:48:19,434 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:48:24,439 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:48:29,442 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:48:34,441 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:48:39,444 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:48:44,441 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:48:49,452 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:48:54,441 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:48:59,440 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:49:04,433 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:49:09,433 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:49:14,446 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:49:19,440 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:49:24,432 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:49:29,439 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:49:34,431 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:49:39,432 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:49:44,435 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:49:49,434 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:49:54,439 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:49:59,434 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:50:04,440 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:50:09,434 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:50:12,510 - basicLogger - INFO - Request for stats has begun.
+2023-10-12 08:50:14,439 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:50:19,431 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:50:24,439 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:50:27,168 - basicLogger - INFO - Request for stats has begun.
+2023-10-12 08:50:29,431 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 08:52:33,680 - basicLogger - INFO - Request for stats has begun.
+2023-10-12 08:52:34,439 - basicLogger - INFO - Request for stats has begun.
+2023-10-12 08:53:21,566 - basicLogger - INFO - Request for stats has begun.
+2023-10-12 08:53:21,575 - basicLogger - DEBUG - {'num_reports': 654, 'num_infrared_reports': 318, 'num_patrol_reports': 336, 'num_positive_status': 0}
+2023-10-12 08:53:21,575 - basicLogger - INFO - Request has completed.
+2023-10-12 08:53:25,334 - basicLogger - INFO - Request for stats has begun.
+2023-10-12 08:53:25,334 - basicLogger - DEBUG - {'num_reports': 654, 'num_infrared_reports': 318, 'num_patrol_reports': 336, 'num_positive_status': 0}
+2023-10-12 08:53:25,335 - basicLogger - INFO - Request has completed.
+2023-10-12 08:54:03,265 - basicLogger - INFO - Request for stats has begun.
+2023-10-12 08:54:03,265 - basicLogger - DEBUG - {'num_reports': 654, 'num_infrared_reports': 318, 'num_patrol_reports': 336, 'num_positive_status': 0}
+2023-10-12 08:54:03,266 - basicLogger - INFO - Request has completed.
+2023-10-12 08:54:30,880 - basicLogger - INFO - Request for stats has begun.
+2023-10-12 08:54:30,881 - basicLogger - DEBUG - {'num_reports': 654, 'num_infrared_reports': 318, 'num_patrol_reports': 336, 'num_positive_status': 0}
+2023-10-12 08:54:30,881 - basicLogger - INFO - Request has completed.
+2023-10-12 08:54:32,515 - basicLogger - INFO - Request for stats has begun.
+2023-10-12 08:54:32,516 - basicLogger - DEBUG - {'num_reports': 654, 'num_infrared_reports': 318, 'num_patrol_reports': 336, 'num_positive_status': 0}
+2023-10-12 08:54:32,516 - basicLogger - INFO - Request has completed.
+2023-10-12 09:20:33,601 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:20:41,985 - basicLogger - ERROR - Status Code not 200
+2023-10-12 09:20:41,985 - basicLogger - INFO - 8 results were received.
+2023-10-12 09:20:43,595 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:20:51,825 - basicLogger - ERROR - Status Code not 200
+2023-10-12 09:20:51,826 - basicLogger - INFO - 8 results were received.
+2023-10-12 09:20:53,601 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:21:01,855 - basicLogger - ERROR - Status Code not 200
+2023-10-12 09:21:01,855 - basicLogger - INFO - 8 results were received.
+2023-10-12 09:21:03,599 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:21:11,847 - basicLogger - ERROR - Status Code not 200
+2023-10-12 09:21:11,847 - basicLogger - INFO - 8 results were received.
+2023-10-12 09:21:13,631 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:21:21,845 - basicLogger - ERROR - Status Code not 200
+2023-10-12 09:21:21,845 - basicLogger - INFO - 8 results were received.
+2023-10-12 09:21:23,598 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:21:31,844 - basicLogger - ERROR - Status Code not 200
+2023-10-12 09:21:31,844 - basicLogger - INFO - 8 results were received.
+2023-10-12 09:21:33,599 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:21:43,591 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:21:48,592 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:21:53,594 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:21:58,601 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:22:03,597 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:22:08,599 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:22:13,603 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:22:18,593 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:22:23,601 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:22:28,601 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:22:33,602 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:22:38,596 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:22:43,593 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:22:48,593 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:22:53,593 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:22:58,588 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:23:06,891 - basicLogger - INFO - 241 results were received.
+2023-10-12 09:23:08,601 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:23:16,809 - basicLogger - INFO - 261 results were received.
+2023-10-12 09:23:18,600 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:23:23,592 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:23:28,594 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:23:33,589 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:23:38,597 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:23:43,601 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:23:48,592 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:23:53,588 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:24:01,798 - basicLogger - INFO - 284 results were received.
+2023-10-12 09:24:03,602 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:24:11,831 - basicLogger - INFO - 289 results were received.
+2023-10-12 09:24:13,597 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:24:21,828 - basicLogger - INFO - 293 results were received.
+2023-10-12 09:24:23,597 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:24:31,831 - basicLogger - INFO - 298 results were received.
+2023-10-12 09:28:07,412 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:28:15,669 - basicLogger - INFO - 301 results were received.
+2023-10-12 09:28:17,426 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 09:28:25,651 - basicLogger - INFO - 322 results were received.
+2023-10-12 10:05:28,053 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 10:05:36,259 - basicLogger - INFO - 407 results were received.
+2023-10-12 10:05:38,047 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 10:05:46,177 - basicLogger - INFO - 432 results were received.
+2023-10-12 10:05:48,050 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 10:05:56,191 - basicLogger - INFO - 455 results were received.
+2023-10-12 10:05:58,050 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 10:06:06,232 - basicLogger - INFO - 478 results were received.
+2023-10-12 10:06:08,056 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 10:06:16,257 - basicLogger - INFO - 496 results were received.
+2023-10-12 10:06:18,054 - basicLogger - INFO - Start Periodic Processing
+2023-10-12 10:06:26,229 - basicLogger - INFO - 496 results were received.
+2023-10-31 20:58:23,404 - basicLogger - INFO - Start Periodic Processing
+2023-10-31 20:58:28,419 - basicLogger - INFO - Start Periodic Processing
+2023-10-31 20:58:38,725 - basicLogger - INFO - 0 results were received.
+2023-10-31 20:58:43,416 - basicLogger - INFO - Start Periodic Processing
+2023-10-31 20:58:51,794 - basicLogger - INFO - 0 results were received.
+2023-10-31 20:58:53,415 - basicLogger - INFO - Start Periodic Processing
+2023-10-31 20:59:01,757 - basicLogger - INFO - 0 results were received.
+2023-10-31 20:59:03,412 - basicLogger - INFO - Start Periodic Processing
+2023-10-31 20:59:11,765 - basicLogger - INFO - 1 results were received.
+2023-10-31 20:59:13,403 - basicLogger - INFO - Start Periodic Processing
+2023-10-31 20:59:21,798 - basicLogger - INFO - 23 results were received.
+2023-10-31 20:59:23,409 - basicLogger - INFO - Start Periodic Processing
+2023-10-31 20:59:31,800 - basicLogger - INFO - 46 results were received.
+2023-10-31 20:59:33,418 - basicLogger - INFO - Start Periodic Processing
+2023-10-31 21:03:27,428 - basicLogger - INFO - Start Periodic Processing
+2023-10-31 21:03:36,265 - basicLogger - INFO - 71 results were received.
+2023-10-31 21:03:37,437 - basicLogger - INFO - Start Periodic Processing
+2023-10-31 21:03:45,734 - basicLogger - INFO - 71 results were received.
+2023-11-02 09:07:08,894 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:07:13,900 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:07:18,894 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:07:23,887 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:07:28,893 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:07:33,889 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:07:38,896 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:07:50,652 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:07:55,647 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:08:00,679 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:08:00,681 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:08:05,657 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:08:09,870 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:08:09,871 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:08:10,659 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:08:14,875 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:08:14,875 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:08:15,656 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:08:19,870 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:08:19,871 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:08:20,658 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:08:24,876 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:08:24,877 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:08:25,653 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:08:29,884 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:08:29,885 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:08:30,650 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:08:34,880 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:08:34,881 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:08:35,658 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:08:39,868 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:08:39,869 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:08:40,653 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:08:44,865 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:08:44,866 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:08:45,646 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:08:49,853 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:08:49,853 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:08:50,652 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:08:54,838 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:08:54,839 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:08:55,651 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:08:59,888 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:08:59,889 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:09:00,658 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:09:04,862 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:09:04,863 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:09:05,649 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:09:09,873 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:09:09,874 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:09:10,653 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:09:14,859 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:09:14,860 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:09:15,647 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:09:19,875 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:09:19,876 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:09:20,652 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:09:24,843 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:09:24,844 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:09:25,650 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:09:29,871 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:09:29,872 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:09:30,660 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:09:34,894 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:09:34,895 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:09:35,654 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:09:39,882 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:09:39,883 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:09:40,651 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:09:44,863 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:09:44,864 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:09:45,649 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:09:49,814 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:09:49,815 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:09:50,657 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:09:54,859 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:09:54,860 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:09:55,652 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:09:59,886 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:09:59,886 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:10:00,650 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:10:04,855 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:10:04,856 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:10:05,648 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:10:09,878 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:10:09,878 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:10:10,653 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:10:14,888 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:10:14,889 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:10:15,648 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:10:19,880 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:10:19,881 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:10:20,655 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:10:24,928 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:10:24,928 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:10:25,650 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:10:29,870 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:10:29,871 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:10:30,657 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:10:34,846 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:10:34,847 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:10:35,646 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:10:39,873 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:10:39,874 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:10:40,649 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:10:44,866 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:10:44,867 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:10:45,653 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:10:49,889 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:10:49,890 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:10:50,658 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:10:54,865 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:10:54,865 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:10:55,654 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:10:59,859 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:10:59,860 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:11:00,650 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:11:04,863 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:11:04,864 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:11:05,655 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:11:09,867 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:11:09,868 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:11:10,658 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:11:14,893 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:11:14,894 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:11:15,658 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:11:19,878 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:11:19,879 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:11:20,656 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:11:24,875 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:11:24,876 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:11:25,649 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:11:29,874 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:11:29,875 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:11:30,646 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:11:34,860 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:11:34,860 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:11:35,653 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:11:39,876 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:11:39,877 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:11:40,654 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:11:44,870 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:11:44,870 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:11:45,651 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:11:49,863 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:11:49,864 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:11:50,654 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:11:54,926 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:11:54,926 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:11:55,657 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:11:59,887 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:11:59,888 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:12:00,651 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:12:04,851 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:12:04,853 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:12:05,661 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:12:09,882 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:12:09,883 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:12:10,656 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:12:14,859 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:12:14,859 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:12:15,655 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:12:19,858 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:12:19,859 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:12:20,650 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:12:24,863 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:12:24,864 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:12:25,657 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:12:29,881 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:12:29,882 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:12:30,653 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:12:34,867 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:12:34,867 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:12:35,649 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:12:39,839 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:12:39,840 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:12:40,657 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:12:44,836 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:12:44,837 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:12:45,651 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:12:49,859 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:12:49,859 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:12:50,655 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:12:54,888 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:12:54,889 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:12:55,650 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:12:59,849 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:12:59,850 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:13:00,657 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:13:04,851 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:13:04,852 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:13:05,648 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:13:09,873 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:13:09,874 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:13:10,650 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:13:14,859 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:13:14,859 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:13:15,651 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:13:19,880 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:13:19,881 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:13:20,654 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:13:24,893 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:13:24,893 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:13:25,652 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:13:29,874 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:13:29,874 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:15:35,684 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:15:40,131 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:15:40,132 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:15:40,671 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:15:44,868 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:15:44,868 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:15:45,669 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:15:49,833 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:15:49,834 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:15:50,670 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:15:54,873 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:15:54,874 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:15:55,669 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:15:59,881 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:15:59,881 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:16:00,678 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:16:04,878 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:16:04,879 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:16:05,683 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:16:09,898 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:16:09,899 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:16:10,678 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:16:14,892 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:16:14,893 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:16:15,678 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:16:19,884 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:16:19,884 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:16:20,670 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:16:24,866 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:16:24,867 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:19:50,956 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:19:55,172 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:19:55,173 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:19:55,953 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:20:00,157 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:20:00,157 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:20:00,964 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:20:05,154 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:20:05,154 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:20:05,951 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:20:10,151 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:20:10,152 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:20:10,966 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:20:15,155 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:20:15,156 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:20:15,956 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:20:20,129 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:20:20,129 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:20:20,962 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:20:25,146 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:20:25,147 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:20:25,965 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:20:30,173 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:20:30,173 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:20:30,961 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:20:35,156 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:20:35,157 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:20:35,952 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:20:40,156 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:20:40,156 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:20:40,957 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:20:45,190 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:20:45,191 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:20:51,606 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:20:55,842 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:20:55,843 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:20:56,604 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:21:00,810 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:21:00,810 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:22:45,220 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:22:49,462 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:22:49,465 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:22:50,220 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:22:54,441 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:22:54,441 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:25:02,291 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:25:06,518 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:25:06,520 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:25:07,294 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:25:11,519 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:25:11,520 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:25:12,296 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:25:16,497 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:25:16,498 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:25:17,294 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:25:21,511 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:25:21,511 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:25:22,294 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:25:26,599 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:25:26,600 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:25:27,293 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:25:31,484 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:25:31,485 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:25:32,297 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:25:36,501 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:25:36,502 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:25:37,301 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:25:41,528 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:25:41,528 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:25:42,303 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:25:46,522 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:25:46,524 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:25:47,292 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:25:51,735 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:25:51,737 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:25:52,293 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:25:56,511 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:25:56,512 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:25:57,299 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:26:01,519 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:26:01,519 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:26:02,297 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:26:06,532 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:26:06,533 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:26:07,292 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:26:11,627 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:26:11,628 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:26:12,302 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:26:16,671 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:26:16,671 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:26:17,294 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:26:21,545 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:26:21,546 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:26:22,304 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:26:26,604 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:26:26,605 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:26:27,296 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:26:31,579 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:26:31,579 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:26:32,298 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:26:36,553 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:26:36,554 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:26:37,297 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:26:41,495 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:26:41,495 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:26:42,298 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:26:46,658 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:26:46,658 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:26:47,298 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:26:51,549 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:26:51,550 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:26:52,291 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:26:56,566 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:26:56,567 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:26:57,293 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:27:01,835 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:27:01,836 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:27:02,305 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:27:06,629 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:27:06,630 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:27:07,295 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:27:11,551 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:27:11,552 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:27:12,291 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:27:16,544 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:27:16,546 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:27:17,304 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:27:21,668 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:27:21,670 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:27:22,305 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:27:26,579 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:27:26,581 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:27:27,299 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:27:31,727 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:27:31,728 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:27:32,305 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:27:36,568 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:27:36,569 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:27:37,298 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:27:41,533 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:27:41,534 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:27:42,303 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:27:46,531 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:27:46,533 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:27:47,305 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:27:51,547 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:27:51,548 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:27:52,299 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:27:56,535 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:27:56,536 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:27:57,296 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:28:01,610 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:28:01,611 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:28:02,293 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:28:06,609 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:28:06,609 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:28:07,298 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:28:11,523 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:28:11,524 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:28:12,297 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:28:16,491 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:28:16,493 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:28:17,300 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:28:21,503 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:28:21,504 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:28:22,301 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:28:26,520 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:28:26,521 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:28:27,297 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:28:31,516 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:28:31,518 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:28:32,299 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:28:36,549 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:28:36,550 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:28:37,292 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:28:41,647 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:28:41,647 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:28:42,293 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:28:46,521 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:28:46,522 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:28:47,300 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:28:51,527 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:28:51,528 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:28:52,295 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:28:56,512 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:28:56,513 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:28:57,305 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:29:01,506 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:29:01,508 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:29:02,303 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:29:06,515 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:29:06,516 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:29:07,293 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:29:11,503 - basicLogger - ERROR - Status Code not 200
+2023-11-02 09:29:11,503 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:39:00,837 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:39:05,285 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:39:05,831 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:39:10,034 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:39:10,823 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:39:15,041 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:39:15,824 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:39:20,024 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:39:20,823 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:39:25,062 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:39:25,838 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:39:30,053 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:39:30,834 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:39:35,043 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:39:35,827 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:39:40,079 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:39:40,829 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:39:45,062 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:39:45,834 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:39:50,018 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:39:50,834 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:39:55,066 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:39:55,831 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:40:00,044 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:40:00,825 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:40:05,057 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:40:05,832 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:40:10,074 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:40:10,828 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:40:15,067 - basicLogger - INFO - 8 results were received.
+2023-11-02 09:40:15,837 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:40:20,135 - basicLogger - INFO - 18 results were received.
+2023-11-02 09:40:20,825 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:40:25,046 - basicLogger - INFO - 18 results were received.
+2023-11-02 09:40:25,832 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:40:30,055 - basicLogger - INFO - 19 results were received.
+2023-11-02 09:40:30,837 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:40:35,075 - basicLogger - INFO - 20 results were received.
+2023-11-02 09:40:35,828 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:40:40,101 - basicLogger - INFO - 19 results were received.
+2023-11-02 09:40:40,823 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:40:45,108 - basicLogger - INFO - 17 results were received.
+2023-11-02 09:40:45,826 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:40:50,072 - basicLogger - INFO - 21 results were received.
+2023-11-02 09:40:50,838 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:40:55,092 - basicLogger - INFO - 16 results were received.
+2023-11-02 09:40:55,834 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:41:00,038 - basicLogger - INFO - 4 results were received.
+2023-11-02 09:41:00,823 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:41:05,059 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:41:05,823 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:41:10,026 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:41:10,828 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:41:15,082 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:41:15,827 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:41:20,147 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:41:20,834 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:41:25,123 - basicLogger - INFO - 0 results were received.
+2023-11-02 09:41:25,826 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 09:41:30,020 - basicLogger - INFO - 0 results were received.

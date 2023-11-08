@@ -1,0 +1,58 @@
+---
+openapi: 3.0.0
+info:
+  description: This API provides event stats
+  version: "1.0.0"
+  title: Stats API
+  contact:
+    email: abalcerak@mybcit.ca
+paths:
+  /stats:
+    get:
+      summary: Gets the event stats
+      operationId: app.get_stats
+      description: Gets Patrol Report and Infrared Report processsed statistics
+      responses:
+        '200':
+          description: Successfully returned a list of blood pressure events
+          content:
+            application/json:
+              schema:
+                type: object
+                items: 
+                  $ref: '#/components/schemas/ReadingStats'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    ReadingStats:
+      required:
+      - num_reports
+      - num_infrared_reports
+      - num_patrol_reports
+      - num_positive_status
+      properties:
+        num_reports:
+          type: integer
+          example: 10000
+          example: 200
+        num_infrared_reports:
+          type: integer
+          example: 9000
+          example: 200
+        num_patrol_reports:
+          type: integer
+          example: 1000
+          example: 200
+        num_positive_status:
+          type: integer
+          example: 5
+      type: object
+

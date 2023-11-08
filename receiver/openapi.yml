@@ -1,0 +1,102 @@
+---
+openapi: 3.0.0
+info:
+  title: Wildfire Detection
+  description: This API detects wildfires with infrared technology and analyzes reports from patrolling officers.
+  contact:
+    email: abalcerak@mybcit.ca
+  version: 1.0.0
+servers:
+- url: /
+tags:
+- name: officers
+  description: Operations available to patrolling officers
+- name: sensors
+  description: Operations available to detection sensors
+paths:
+  /reports/patrols/:
+    post:
+      tags:
+      - officers
+      summary: reports the surveyed results for the region
+      description: adds a new patrol report to the system for analysis
+      operationId: app.report_patrol
+      requestBody:
+        description: Report item to add
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatrolReport'
+      responses:
+        "201":
+          description: report created
+        "400":
+          description: the input was invalid
+          
+  /reports/infrared/:
+    post:
+      tags:
+      - sensors
+      summary: reports the infrared readings in the region
+      description: adds a new sensor reading to the system for analysis
+      operationId: app.report_infrared
+      requestBody:
+        description: Report item to add
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SensorReport'
+      responses:
+        "201":
+          description: report created
+        "400":
+          description: the input was invalid
+components:
+  schemas:
+    PatrolReport:
+      required:
+      - officer_id
+      - reporter
+      - status_code
+      - timestamp
+      - writeup
+      type: object
+      properties:
+        officer_id:
+          type: string
+          example: "132412"
+        reporter:
+          type: string
+          example: Johnny Patrolman
+        timestamp:
+          format: date-time
+          example: 2013-08-15T13:15:53.002Z
+        status_code:
+          type: integer
+          example: 0
+        writeup:
+          type: string
+          example: All clear.
+
+    SensorReport:
+      required:
+      - sensor_id
+      - status_code
+      - temperature
+      - timestamp
+      type: object
+      properties:
+        sensor_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        timestamp:
+          type: string
+          format: date-time
+          example: 2013-08-16T02:11:43.001Z
+        temperature:
+          type: integer
+          example: 14
+        status_code:
+          type: integer
+          example: 0

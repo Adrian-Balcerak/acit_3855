@@ -1,0 +1,10 @@
+---
+Version: 1
+eventstore1:
+  url: http://localhost:8090/reports/patrols/
+eventstore2:
+  url: http://localhost:8090/reports/infrared/
+events:
+  hostname: ec2-35-167-228-45.us-west-2.compute.amazonaws.com
+  port: 9092
+  topic: events

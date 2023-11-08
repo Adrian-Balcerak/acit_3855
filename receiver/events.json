@@ -1,0 +1,42 @@
+[
+    {
+        "received_timestamp": "2023-09-21 10:05:23.734558",
+        "request_data": "Report received from sensor, id: d290f1ee-6c54-4b01-90e6-d701748f0851. Temerature: 14 degrees celsius."
+    },
+    {
+        "received_timestamp": "2023-09-21 10:05:23.727765",
+        "request_data": "Report received from Johnny Patrolman, id: 132412. All clear."
+    },
+    {
+        "received_timestamp": "2023-09-21 10:05:23.711101",
+        "request_data": "Report received from sensor, id: d290f1ee-6c54-4b01-90e6-d701748f0851. Temerature: 14 degrees celsius."
+    },
+    {
+        "received_timestamp": "2023-09-21 10:05:23.701541",
+        "request_data": "Report received from Johnny Patrolman, id: 132412. All clear."
+    },
+    {
+        "received_timestamp": "2023-09-21 10:05:23.683825",
+        "request_data": "Report received from sensor, id: d290f1ee-6c54-4b01-90e6-d701748f0851. Temerature: 14 degrees celsius."
+    },
+    {
+        "received_timestamp": "2023-09-21 10:05:23.667170",
+        "request_data": "Report received from Johnny Patrolman, id: 132412. All clear."
+    },
+    {
+        "received_timestamp": "2023-09-21 10:05:23.661139",
+        "request_data": "Report received from sensor, id: d290f1ee-6c54-4b01-90e6-d701748f0851. Temerature: 14 degrees celsius."
+    },
+    {
+        "received_timestamp": "2023-09-21 10:05:23.649199",
+        "request_data": "Report received from Johnny Patrolman, id: 132412. All clear."
+    },
+    {
+        "received_timestamp": "2023-09-21 10:05:23.635992",
+        "request_data": "Report received from sensor, id: d290f1ee-6c54-4b01-90e6-d701748f0851. Temerature: 14 degrees celsius."
+    },
+    {
+        "received_timestamp": "2023-09-21 10:05:23.619991",
+        "request_data": "Report received from Johnny Patrolman, id: 132412. All clear."
+    }
+]
