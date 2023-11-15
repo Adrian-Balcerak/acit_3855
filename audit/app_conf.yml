@@ -1,5 +1,5 @@
 version: 1
 events:
-  hostname: ec2-35-167-228-45.us-west-2.compute.amazonaws.com
+  hostname: 20.200.126.250
   port: 9092
   topic: events
