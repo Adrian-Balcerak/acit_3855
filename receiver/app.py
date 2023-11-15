@@ -1,5 +1,4 @@
 import connexion
-import jsonify
 import datetime
 import requests
 import json
