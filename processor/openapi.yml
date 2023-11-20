@@ -54,5 +54,8 @@ components:
         num_positive_status:
           type: integer
           example: 5
+        timestamp:
+          type: datetime
+          example: "2023-11-02 09:41:25.829461"
       type: object
 

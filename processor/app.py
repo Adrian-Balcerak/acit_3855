@@ -27,7 +27,7 @@ def get_stats():
         return Response("Statistics do not exist", 404)
     
     obj = {"num_reports": stats['num_reports'], "num_infrared_reports": stats["num_infrared_reports"],
-           "num_patrol_reports": stats["num_patrol_reports"], "num_positive_status": stats["num_positive_status"]}
+           "num_patrol_reports": stats["num_patrol_reports"], "num_positive_status": stats["num_positive_status"], "timestamp": stats['timestamp']}
     
     logger.debug(f'{obj}')
 

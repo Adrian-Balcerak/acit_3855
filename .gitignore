@@ -1,4 +1,4 @@
-/venv
+/receiver/venv
 /storage/venv
 /audit/venv
 /processor/venv
