@@ -78,7 +78,7 @@ def get_infrared_report(index):
     return { "message": "Not Found"}, 404
 
 app = connexion.FlaskApp(__name__, specification_dir='')
-CORS(app.app, origins=['localhost:3000', 'localhost'])
+CORS(app.app, origins=['dashboard-ui//dashboard-ui:3000'])
 app.app.config['CORS_HEADERS'] = '*'
 app.add_api("openapi.yml")
 
