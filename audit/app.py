@@ -4,6 +4,7 @@ import yaml
 from pykafka import KafkaClient
 import json
 from flask import Response
+from flask_cors import CORS, cross_origin
 
 with open('log_conf.yml', 'r') as f:
     log_config = yaml.safe_load(f.read())
@@ -78,6 +79,8 @@ def get_infrared_report(index):
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yml")
+CORS(app.app)
+app.app.config['CORS_HEADERS'] = 'Content-Type'
 
 if __name__ == '__main__':
     app.run(port=8110)

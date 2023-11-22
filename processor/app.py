@@ -3,6 +3,7 @@ import datetime
 import requests
 import json
 from flask import Response
+from flask_cors import CORS, cross_origin
 import yaml
 import logging, logging.config
 import uuid
@@ -84,6 +85,8 @@ def init_scheduler():
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
+CORS(app.app)
+app.app.config['CORS_HEADERS'] = 'Content-Type'
 
 if __name__ == '__main__':
     init_scheduler()

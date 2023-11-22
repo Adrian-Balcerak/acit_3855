@@ -12,8 +12,6 @@ services:
     depends_on:
       - kafka
 
-    
-
   storage:
     build:
       context: ./../storage
@@ -34,7 +32,6 @@ services:
       - "8100:8100"
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
-  
     depends_on:
       - storage
 
@@ -46,10 +43,21 @@ services:
       - "8110:8110"
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
-    
     depends_on:
       - kafka
-  
+
+  dashboard-ui:
+    build:
+      context: ./../dashboard-ui
+      dockerfile: dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - "/etc/localtime:/etc/localtime:ro"
+    depends_on:
+      - process
+      - audit
+
   zookeeper:
     image: wurstmeister/zookeeper
     hostname: zookeeper
