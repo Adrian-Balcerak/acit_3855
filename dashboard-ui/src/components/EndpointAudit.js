@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, setIndex } from 'react'
 import '../App.css';
 
 export default function EndpointAudit(props) {
@@ -6,7 +6,7 @@ export default function EndpointAudit(props) {
     const [log, setLog] = useState(null);
     const [error, setError] = useState(null)
 	const rand_val = Math.floor(Math.random() * 100); // Get a random event from the event store
-
+    const [index, setIndex] = useState(null); // Add a state for the index
     const getAudit = () => {
         fetch(`http://20.200.126.250:8110/${props.endpoint}?index=${rand_val}`)
             .then(res => res.json())
