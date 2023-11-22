@@ -6,6 +6,10 @@ import json
 from flask import Response
 from flask_cors import CORS, cross_origin
 
+app = connexion.FlaskApp(__name__, specification_dir='')
+CORS(app.app)
+app.app.config['CORS_HEADERS'] = 'Content-Type'
+
 with open('log_conf.yml', 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
@@ -16,9 +20,11 @@ with open('app_conf.yml', 'r') as f:
 logger = logging.getLogger('basicLogger')
 
 def get_patrol_report(index):
+    print('1')
     hostname = "%s:%d" % (app_conf["events"]["hostname"],
     app_conf["events"]["port"])
     client = KafkaClient(hosts=hostname)
+    print('2')
     topic = client.topics[str.encode(app_conf["events"]["topic"])]
 
     # Here we reset the offset on start so that we retrieve
@@ -77,7 +83,6 @@ def get_infrared_report(index):
     logger.error("Could not find Report Patrol at index %d" % index)
     return { "message": "Not Found"}, 404
 
-app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 
 if __name__ == '__main__':
