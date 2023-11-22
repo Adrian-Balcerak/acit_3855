@@ -13,6 +13,7 @@ export default function EndpointAudit(props) {
             .then((result)=>{
 				console.log("Received Audit Results for " + props.endpoint)
                 setLog(result);
+                setIndex(rand_val);
                 setIsLoaded(true);
             },(error) =>{
                 setError(error)
@@ -32,7 +33,7 @@ export default function EndpointAudit(props) {
         
         return (
             <div>
-                <h3>{props.endpoint}-{rand_val}</h3>
+                <h3>{props.endpoint}-{index}</h3>
                 {JSON.stringify(log)}
             </div>
         )

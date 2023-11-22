@@ -4,21 +4,28 @@ import '../App.css';
 export default function AppStats() {
     const [isLoaded, setIsLoaded] = useState(false);
     const [stats, setStats] = useState({});
-    const [error, setError] = useState(null)
+    const [error, setError] = useState(null);
 
-	const getStats = () => {
-	
+    const getStats = () => {
         fetch(`http://20.200.126.250:8100/stats`)
-            .then(res => res.json())
-            .then((result)=>{
-				console.log("Received Stats")
-                setStats(result);
-                setIsLoaded(true);
-            },(error) =>{
-                setError(error)
-                setIsLoaded(true);
+            .then(res => {
+                if (!res.ok) {
+                    throw new Error(`HTTP error status: ${res.status}`);
+                }
+                return res.json();
             })
-    }
+            .then(
+                (result) => {
+                    console.log("Received Stats", result);
+                    setStats(result);
+                    setIsLoaded(true);
+                },
+                (error) => {
+                    setError(error);
+                    setIsLoaded(true);
+                }
+            );
+    };
     useEffect(() => {
 		const interval = setInterval(() => getStats(), 2000); // Update every 2 seconds
 		return() => clearInterval(interval);
