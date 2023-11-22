@@ -79,7 +79,7 @@ def get_infrared_report(index):
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 CORS(app.app, origins=['localhost:3000', 'localhost'])
-app.app.config['CORS_HEADERS'] = 'Content-Type'
+app.app.config['CORS_HEADERS'] = '*'
 app.add_api("openapi.yml")
 
 if __name__ == '__main__':

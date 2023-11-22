@@ -84,8 +84,8 @@ def init_scheduler():
     sched.start()
 
 app = connexion.FlaskApp(__name__, specification_dir='')
-CORS(app.app, origins=['localhost:3000', 'localhost'])
-app.app.config['CORS_HEADERS'] = 'Content-Type'
+CORS(app.app)
+app.app.config['CORS_HEADERS'] = '*'
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 
 if __name__ == '__main__':
