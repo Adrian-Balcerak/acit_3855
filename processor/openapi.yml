@@ -38,6 +38,7 @@ components:
       - num_infrared_reports
       - num_patrol_reports
       - num_positive_status
+      - timestamp
       properties:
         num_reports:
           type: integer
@@ -55,7 +56,7 @@ components:
           type: integer
           example: 5
         timestamp:
-          type: datetime
+          type: string
           example: "2023-11-02 09:41:25.829461"
       type: object
 
