@@ -12,9 +12,12 @@ import logging, logging.config
 from pykafka import KafkaClient
 from pykafka.common import OffsetType
 from threading import Thread
-
-
+from flask_cors import CORS, cross_origin
 from declaratives import Base, ReportInfrared, ReportPatrol
+
+app = connexion.FlaskApp(__name__, specification_dir='')
+CORS(app.app)
+app.app.config['CORS_HEADERS'] = 'Content-Type'
 
 with open('db_conf.yml', 'r') as f:
     db_config = yaml.safe_load(f.read())
@@ -150,7 +153,6 @@ def process_messages():
         # Commit the new message as being read
         consumer.commit_offsets()
 
-app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yml")
 
 if __name__ == '__main__':
