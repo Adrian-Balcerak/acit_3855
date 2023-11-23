@@ -49,10 +49,10 @@ def populate_stats():
         stats = json.load(file)
     
     time = stats['timestamp']
-    print(time)
     next_time = datetime.datetime.now()
-    patrols = requests.get(f'{app_config["eventstore"]["url"]}/reports/patrols', params = {"timestamp": time})
-    infrared = requests.get(f'{app_config["eventstore"]["url"]}/reports/infrared', params = {"timestamp": time})
+    print(f'{app_config["eventstore1"]["url"]}/reports/patrols', params = {"timestamp": time})
+    patrols = requests.get(f'{app_config["eventstore1"]["url"]}/reports/patrols', params = {"timestamp": time})
+    infrared = requests.get(f'{app_config["eventstore2"]["url"]}/reports/infrared', params = {"timestamp": time})
     results = []
     infra = 0
     pat = 0
