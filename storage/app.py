@@ -107,6 +107,7 @@ def process_messages():
     """ Process event messages """
     hostname = "%s:%d" % (db_config["events"]["hostname"],
         db_config["events"]["port"])
+    print('hostname')
     client = KafkaClient(hosts=hostname)
     topic = client.topics[str.encode(db_config["events"]["topic"])]
 
