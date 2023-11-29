@@ -163,6 +163,7 @@ def process_messages():
 
 def enforce_thread_alive():
     if not t1.is_alive():
+        logging.debug("CREATING NEW THREAD FOR CONSUMING KAFKA QUEUE")
         t1 = Thread(target=process_messages)
         t1.setDaemon(True)
         t1.start()
