@@ -13,6 +13,7 @@ from pykafka import KafkaClient
 from pykafka.common import OffsetType
 from threading import Thread
 from declaratives import Base, ReportInfrared, ReportPatrol
+import time
 
 with open('db_conf.yml', 'r') as f:
     db_config = yaml.safe_load(f.read())
@@ -106,8 +107,19 @@ def process_messages():
     hostname = "%s:%d" % (db_config["events"]["hostname"],
         db_config["events"]["port"])
     print('hostname')
-    client = KafkaClient(hosts=hostname)
-    topic = client.topics[str.encode(db_config["events"]["topic"])]
+    tries_max = db_config["events"]["retry"]
+    sleep_time = db_config["events"]["sleep"]
+    attempt = 0
+    while attempt < tries_max:
+        logger.info("Trying to establish a connection to the Kafka Client")
+        try:
+            client = KafkaClient(hosts=hostname)
+            topic = client.topics[str.encode(db_config["events"]["topic"])]
+            break
+        except:
+            logger.debug("Failed to establish a connection to the Kafka Client")
+            time.sleep(sleep_time)
+            attempt+= 1
 
     # Create a consume on a consumer group, that only reads new messages
     # (uncommitted messages) when the service re-starts (i.e., it doesn't
