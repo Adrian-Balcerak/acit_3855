@@ -14,6 +14,7 @@ from pykafka.common import OffsetType
 from threading import Thread
 from declaratives import Base, ReportInfrared, ReportPatrol
 import time
+from apscheduler.schedulers.background import BackgroundScheduler
 
 with open('db_conf.yml', 'r') as f:
     db_config = yaml.safe_load(f.read())
@@ -160,10 +161,25 @@ def process_messages():
         # Commit the new message as being read
         consumer.commit_offsets()
 
+def enforce_thread_alive():
+    if not t1.is_alive():
+        t1 = Thread(target=process_messages)
+        t1.setDaemon(True)
+        t1.start()
+
+def init_scheduler():
+    sched = BackgroundScheduler(daemon=True)
+    sched.add_job(enforce_thread_alive,
+                'interval',
+                seconds=30)
+    sched.start()
+
 if __name__ == '__main__':
     t1 = Thread(target=process_messages)
     t1.setDaemon(True)
     t1.start()
+
+    init_scheduler()
 
     app = connexion.FlaskApp(__name__, specification_dir='')
     app.add_api("openapi.yml")
