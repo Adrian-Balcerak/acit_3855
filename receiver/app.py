@@ -19,7 +19,7 @@ with open('log_conf.yml', 'r') as f:
 logger = logging.getLogger('basicLogger')
 
 tries_max = app_config['events']['retry']
-sleep_time = app_config['events']['sleep_time']
+sleep_time = app_config['events']['sleep']
 attempt = 0
 while attempt < tries_max:
     logger.info("Trying to establish a connection to the Kafka Client")
