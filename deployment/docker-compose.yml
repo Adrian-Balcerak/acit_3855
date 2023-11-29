@@ -94,6 +94,8 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: 'events'
+      MYSQL_USER: 'username'
+      MYSQL_PASSWORD: 'password'
       MYSQL_ROOT_PASSWORD: '1234'
     ports:
       - '3306:3306'  # <Port exposed> : < MySQL Port running inside container>
