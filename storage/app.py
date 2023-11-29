@@ -136,14 +136,13 @@ def process_messages():
 
         elif msg["type"] == "InfraredReport": # Change this to your event type
             # Store the event2 (i.e., the payload) to the DB
-            iv = ReportInfrared(payload['sensor_id'], 
+            ev = ReportInfrared(payload['sensor_id'], 
                            payload['status_code'],
                            payload['temperature'],
                            payload['timestamp'],
                            payload['trace_id'])
 
         session.add(ev)
-        session.add(iv)
         session.commit()
         session.close()
         # Commit the new message as being read
