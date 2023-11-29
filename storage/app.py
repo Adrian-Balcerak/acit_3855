@@ -12,12 +12,7 @@ import logging, logging.config
 from pykafka import KafkaClient
 from pykafka.common import OffsetType
 from threading import Thread
-from flask_cors import CORS, cross_origin
 from declaratives import Base, ReportInfrared, ReportPatrol
-
-app = connexion.FlaskApp(__name__, specification_dir='')
-CORS(app.app)
-app.app.config['CORS_HEADERS'] = 'Content-Type'
 
 with open('db_conf.yml', 'r') as f:
     db_config = yaml.safe_load(f.read())
@@ -141,23 +136,24 @@ def process_messages():
 
         elif msg["type"] == "InfraredReport": # Change this to your event type
             # Store the event2 (i.e., the payload) to the DB
-            ev = ReportInfrared(payload['sensor_id'], 
+            iv = ReportInfrared(payload['sensor_id'], 
                            payload['status_code'],
                            payload['temperature'],
                            payload['timestamp'],
                            payload['trace_id'])
 
         session.add(ev)
+        session.add(iv)
         session.commit()
         session.close()
         # Commit the new message as being read
         consumer.commit_offsets()
-
-app.add_api("openapi.yml")
 
 if __name__ == '__main__':
     t1 = Thread(target=process_messages)
     t1.setDaemon(True)
     t1.start()
 
+    app = connexion.FlaskApp(__name__, specification_dir='')
+    app.add_api("openapi.yml")
     app.run(port='8090')
