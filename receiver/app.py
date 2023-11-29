@@ -25,7 +25,6 @@ while attempt < tries_max:
     logger.info("Trying to establish a connection to the Kafka Client")
     try:
         client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
-        topic = client.topics[str.encode(app_config["events"]["topic"])]
         break
     except:
         logger.debug("Failed to establish a connection to the Kafka Client")
@@ -41,7 +40,8 @@ def report_patrol(body):
     h = {"Content-Type": "application/json"}
 
     #r = requests.post(url, json.dumps(body), headers = h)
-
+    
+    topic = client.topics[str.encode(app_config["events"]["topic"])]
     producer = topic.get_sync_producer()
     msg = { "type": event_name, "datetime" :
         datetime.datetime.now().strftime(
@@ -63,6 +63,7 @@ def report_infrared(body):
 
     #r = requests.post(url, json.dumps(body), headers = h)
 
+    topic = client.topics[str.encode(app_config["events"]["topic"])]
     producer = topic.get_sync_producer()
     msg = { "type": event_name, "datetime" :
         datetime.datetime.now().strftime(
