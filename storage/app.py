@@ -1,6 +1,6 @@
 import connexion
 from connexion import NoContent
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, and_
 from sqlalchemy.orm import sessionmaker
 from flask import Response
 import mysql.connector
@@ -74,10 +74,10 @@ def report_infrared(body):
 
     return Response("🙏🔥🔥", 201)
 
-def get_report_patrol(timestamp):
+def get_report_patrol(timestamp, timestamp_end):
     session = DB_SESSION()
 
-    readings = session.query(ReportPatrol).filter(ReportPatrol.date_created >= timestamp)
+    readings = session.query(ReportPatrol).filter(and_(ReportPatrol.date_created >= timestamp, ReportPatrol.date_created < timestamp_end))
 
     results_list = []
 
@@ -90,10 +90,10 @@ def get_report_patrol(timestamp):
 
     return Response(json.dumps(results_list), 200)
 
-def get_report_infrared(timestamp):
+def get_report_infrared(timestamp, timestamp_end):
     session = DB_SESSION()
 
-    readings = session.query(ReportInfrared).filter(ReportInfrared.date_created >= timestamp)
+    readings = session.query(ReportInfrared).filter(and_(ReportInfrared.date_created >= timestamp, ReportInfrared.date_created < timestamp_end))
 
     results_list = []
 

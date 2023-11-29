@@ -50,8 +50,8 @@ def populate_stats():
     
     time = stats['timestamp']
     next_time = datetime.datetime.now()
-    patrols = requests.get(f'{app_config["eventstore"]["url"]}/reports/patrols', params = {"timestamp": time})
-    infrared = requests.get(f'{app_config["eventstore"]["url"]}/reports/infrared', params = {"timestamp": time})
+    patrols = requests.get(f'{app_config["eventstore"]["url"]}/reports/patrols', params = {"timestamp": time, "timestamp_end": next_time})
+    infrared = requests.get(f'{app_config["eventstore"]["url"]}/reports/infrared', params = {"timestamp": time, "timestamp_end": next_time})
     results = []
     infra = 0
     pat = 0

@@ -41,7 +41,14 @@ paths:
       parameters:
         - name: timestamp
           in: query
-          description: Limits the number of items on a page
+          description: Limits the number of items on a page from the start
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+        - name: timestamp_end
+          in: query
+          description: Limits the number of items on a page from the end
           schema:
             type: string
             format: date-time
@@ -91,7 +98,14 @@ paths:
       parameters:
         - name: timestamp
           in: query
-          description: Limits the number of items on a page
+          description: Limits the number of items on a page from the start
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+        - name: timestamp_end
+          in: query
+          description: Limits the number of items on a page from the end
           schema:
             type: string
             format: date-time
