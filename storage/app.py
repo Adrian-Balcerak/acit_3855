@@ -12,12 +12,9 @@ import logging, logging.config
 from pykafka import KafkaClient
 from pykafka.common import OffsetType
 from threading import Thread
-from flask_cors import CORS, cross_origin
 from declaratives import Base, ReportInfrared, ReportPatrol
 
 app = connexion.FlaskApp(__name__, specification_dir='')
-CORS(app.app)
-app.app.config['CORS_HEADERS'] = 'Content-Type'
 
 with open('db_conf.yml', 'r') as f:
     db_config = yaml.safe_load(f.read())

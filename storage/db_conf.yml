@@ -2,7 +2,7 @@ version: 1
 datastore:
   user: root
   password: 1234
-  hostname: 20.200.126.250
+  hostname: localhost
   port: 3306
   db: events
 events:
