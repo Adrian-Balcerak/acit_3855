@@ -7,6 +7,7 @@ import yaml
 import logging, logging.config
 import uuid
 from pykafka import KafkaClient
+import time
 
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
@@ -16,6 +17,20 @@ with open('log_conf.yml', 'r') as f:
     logging.config.dictConfig(log_config)
 
 logger = logging.getLogger('basicLogger')
+
+tries_max = app_config['events']['retry']
+sleep_time = app_config['events']['sleep_time']
+attempt = 0
+while attempt < tries_max:
+    logger.info("Trying to establish a connection to the Kafka Client")
+    try:
+        client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
+        topic = client.topics[str.encode(app_config["events"]["topic"])]
+        break
+    except:
+        logger.debug("Failed to establish a connection to the Kafka Client")
+        time.sleep(sleep_time)
+        attempt+= 1
 
 def report_patrol(body):
     event_name = 'PatrolReport'
@@ -27,8 +42,6 @@ def report_patrol(body):
 
     #r = requests.post(url, json.dumps(body), headers = h)
 
-    client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
-    topic = client.topics[str.encode(app_config["events"]["topic"])]
     producer = topic.get_sync_producer()
     msg = { "type": event_name, "datetime" :
         datetime.datetime.now().strftime(
@@ -50,8 +63,6 @@ def report_infrared(body):
 
     #r = requests.post(url, json.dumps(body), headers = h)
 
-    client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
-    topic = client.topics[str.encode(app_config['events']['topic'])]
     producer = topic.get_sync_producer()
     msg = { "type": event_name, "datetime" :
         datetime.datetime.now().strftime(
