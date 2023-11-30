@@ -18,14 +18,14 @@ from apscheduler.schedulers.background import BackgroundScheduler
 import os
 
 if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
-    app_config_file = "config/app_conf.yml"
+    db_config_file = "config/db_conf.yml"
     log_config_file = "config/log_conf.yml"
 else:
-    app_config_file = "app_conf.yml"
+    db_config_file = "db_conf.yml"
     log_config_file = "log_conf.yml"
 
-with open(app_config_file, 'r') as f:
-    app_config = yaml.safe_load(f.read())
+with open(db_config_file, 'r') as f:
+    db_config = yaml.safe_load(f.read())
 
 with open(log_config_file, 'r') as f:
     log_config = yaml.safe_load(f.read())
@@ -33,7 +33,7 @@ with open(log_config_file, 'r') as f:
 
 logger = logging.getLogger('basicLogger')
 
-logger.info("App Conf File: %s" % app_config_file)
+logger.info("App Conf File: %s" % db_config_file)
 logger.info("Log Conf File: %s" % log_config_file)
 
 

@@ -21,8 +21,11 @@ services:
       dockerfile: dockerfile
     ports:
       - "8090:8090"
+    environment:
+      - TARGET_ENV=test
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
+      - "/home/azureuser/config/storage:/config"
     depends_on:
       - kafka
       - db
@@ -33,8 +36,11 @@ services:
       dockerfile: dockerfile
     ports:
       - "8100:8100"
+    environment:
+      - TARGET_ENV=test
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
+      - "/home/azureuser/config/process:/config"
     depends_on:
       - storage
 
@@ -44,8 +50,11 @@ services:
       dockerfile: dockerfile
     ports:
       - "8110:8110"
+    environment:
+      - TARGET_ENV=test
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
+      - "/home/azureuser/config/audit:/config"
     depends_on:
       - kafka
 
