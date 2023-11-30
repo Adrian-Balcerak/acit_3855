@@ -41,15 +41,20 @@ def report_patrol(body):
 
     #r = requests.post(url, json.dumps(body), headers = h)
     
-    topic = client.topics[str.encode(app_config["events"]["topic"])]
-    producer = topic.get_sync_producer()
+    try:
+        topic = client.topics[str.encode(app_config["events"]["topic"])]
+        producer = topic.get_sync_producer()
+    except:
+        client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
+        topic = client.topics[str.encode(app_config["events"]["topic"])]
+        producer = topic.get_sync_producer()
     msg = { "type": event_name, "datetime" :
         datetime.datetime.now().strftime(
             "%Y-%m-%dT%H:%M:%S"),
             "payload": body }
     msg_str = json.dumps(msg)
     producer.produce(msg_str.encode('utf-8'))
-
+    
     logger.info(f'Returned Event {event_name} response (Id: {trace_id}) with status {str(201)}')
     return Response("🙏🔥🔥", 201)
 
@@ -63,8 +68,13 @@ def report_infrared(body):
 
     #r = requests.post(url, json.dumps(body), headers = h)
 
-    topic = client.topics[str.encode(app_config["events"]["topic"])]
-    producer = topic.get_sync_producer()
+    try:
+        topic = client.topics[str.encode(app_config["events"]["topic"])]
+        producer = topic.get_sync_producer()
+    except:
+        client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
+        topic = client.topics[str.encode(app_config["events"]["topic"])]
+        producer = topic.get_sync_producer()
     msg = { "type": event_name, "datetime" :
         datetime.datetime.now().strftime(
             "%Y-%m-%dT%H:%M:%S"),
