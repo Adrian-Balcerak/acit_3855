@@ -15,15 +15,27 @@ from threading import Thread
 from declaratives import Base, ReportInfrared, ReportPatrol
 import time
 from apscheduler.schedulers.background import BackgroundScheduler
+import os
 
-with open('db_conf.yml', 'r') as f:
-    db_config = yaml.safe_load(f.read())
+if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
+    app_config_file = "config/app_conf.yml"
+    log_config_file = "config/log_conf.yml"
+else:
+    app_config_file = "app_conf.yml"
+    log_config_file = "log_conf.yml"
 
-with open('log_conf.yml', 'r') as f:
+with open(app_config_file, 'r') as f:
+    app_config = yaml.safe_load(f.read())
+
+with open(log_config_file, 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 
 logger = logging.getLogger('basicLogger')
+
+logger.info("App Conf File: %s" % app_config_file)
+logger.info("Log Conf File: %s" % log_config_file)
+
 
 DB_ENGINE = create_engine(
     f'mysql+pymysql://{db_config["datastore"]["user"]}:{db_config["datastore"]["password"]}@{db_config["datastore"]["hostname"]}:{db_config["datastore"]["port"]}/{db_config["datastore"]["db"]}'
