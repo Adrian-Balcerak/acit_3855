@@ -18,8 +18,8 @@ from apscheduler.schedulers.background import BackgroundScheduler
 import os
 
 if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
-    db_config_file = "config/db_conf.yml"
-    log_config_file = "config/log_conf.yml"
+    db_config_file = "/config/db_conf.yml"
+    log_config_file = "/config/log_conf.yml"
 else:
     db_config_file = "db_conf.yml"
     log_config_file = "log_conf.yml"

@@ -16,8 +16,8 @@ app.app.config['CORS_HEADERS'] = 'Content-Type'
 import os
 
 if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
-    app_config_file = "config/app_conf.yml"
-    log_config_file = "config/log_conf.yml"
+    app_config_file = "/config/app_conf.yml"
+    log_config_file = "/config/log_conf.yml"
 else:
     app_config_file = "app_conf.yml"
     log_config_file = "log_conf.yml"
