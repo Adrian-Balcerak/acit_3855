@@ -11,7 +11,7 @@ services:
       - TARGET_ENV=test
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
-      - "-/home/azureuser/config/receiver:/config"
+      - "/home/azureuser/config/receiver:/config"
     depends_on:
       - kafka
 
