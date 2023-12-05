@@ -12,6 +12,7 @@ services:
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
       - "/home/azureuser/config/receiver:/config"
+      - /home/azureuser/logs:/logs
     depends_on:
       - kafka
 
@@ -26,6 +27,7 @@ services:
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
       - "/home/azureuser/config/storage:/config"
+      - /home/azureuser/logs:/logs
     depends_on:
       - kafka
       - db
@@ -41,6 +43,7 @@ services:
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
       - "/home/azureuser/config/process:/config"
+      - /home/azureuser/logs:/logs
     depends_on:
       - storage
 
@@ -55,6 +58,7 @@ services:
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
       - "/home/azureuser/config/audit:/config"
+      - /home/azureuser/logs:/logs
     depends_on:
       - kafka
 
@@ -66,6 +70,7 @@ services:
       - "3000:3000"
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
+      - /home/azureuser/logs:/logs
     depends_on:
       - process
       - audit
