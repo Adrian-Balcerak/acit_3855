@@ -38,13 +38,28 @@ logger.info("Log Conf File: %s" % log_config_file)
 
 def get_stats():
     logger.info("Request for stats has begun.")
-    
+
     try:
         with open(app_config['datastore']['filename'], 'r') as file:
             stats = json.load(file)
     except:
-        return Response("Statistics do not exist", 404)
-    
+        fp = open(app_config['datastore']['filename'], 'w')
+        fp.write({
+    "num_reports": 0,
+    "num_infrared_reports": 0,
+    "num_patrol_reports": 0,
+    "num_positive_status": 0,
+    "timestamp": "2023-11-02 09:41:25.829461"
+})
+        fp.close()
+        stats = {
+    "num_reports": 0,
+    "num_infrared_reports": 0,
+    "num_patrol_reports": 0,
+    "num_positive_status": 0,
+    "timestamp": "2023-11-02 09:41:25.829461"
+}
+
     obj = {"num_reports": stats['num_reports'], "num_infrared_reports": stats["num_infrared_reports"],
            "num_patrol_reports": stats["num_patrol_reports"], "num_positive_status": stats["num_positive_status"], "timestamp": stats['timestamp']}
     

@@ -44,6 +44,7 @@ services:
       - "/etc/localtime:/etc/localtime:ro"
       - "/home/azureuser/config/process:/config"
       - /home/azureuser/logs:/logs
+      - process-db:/data
     depends_on:
       - storage
 
@@ -124,6 +125,7 @@ services:
 
 volumes:
   my-db:
+  process-db:
 
 networks:
   app-network:
