@@ -31,6 +31,8 @@ with open(log_config_file, 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 
+print(log_config['handlers']['file']['filename'])
+
 logger = logging.getLogger('basicLogger')
 
 logger.info("App Conf File: %s" % db_config_file)

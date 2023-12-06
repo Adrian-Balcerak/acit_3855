@@ -28,7 +28,6 @@ print(log_config['handlers']['file']['filename'])
 
 logger = logging.getLogger('basicLogger')
 
-
 logger.info("App Conf File: %s" % app_config_file)
 logger.info("Log Conf File: %s" % log_config_file)
 

@@ -26,6 +26,8 @@ with open(log_config_file, 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 
+print(log_config['handlers']['file']['filename'])
+
 logger = logging.getLogger('basicLogger')
 
 logger.info("App Conf File: %s" % app_config_file)
@@ -33,11 +35,11 @@ logger.info("Log Conf File: %s" % log_config_file)
 
 def get_patrol_report(index):
     print('1')
-    hostname = "%s:%d" % (app_conf["events"]["hostname"],
-    app_conf["events"]["port"])
+    hostname = "%s:%d" % (app_config["events"]["hostname"],
+    app_config["events"]["port"])
     client = KafkaClient(hosts=hostname)
     print('2')
-    topic = client.topics[str.encode(app_conf["events"]["topic"])]
+    topic = client.topics[str.encode(app_config["events"]["topic"])]
 
     # Here we reset the offset on start so that we retrieve
     # messages at the beginning of the message queue.
@@ -65,10 +67,10 @@ def get_patrol_report(index):
     return { "message": "Not Found"}, 404
 
 def get_infrared_report(index):
-    hostname = "%s:%d" % (app_conf["events"]["hostname"],
-    app_conf["events"]["port"])
+    hostname = "%s:%d" % (app_config["events"]["hostname"],
+    app_config["events"]["port"])
     client = KafkaClient(hosts=hostname)
-    topic = client.topics[str.encode(app_conf["events"]["topic"])]
+    topic = client.topics[str.encode(app_config["events"]["topic"])]
 
     # Here we reset the offset on start so that we retrieve
     # messages at the beginning of the message queue.
