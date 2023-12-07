@@ -29,7 +29,7 @@ export default function AppStats() {
     useEffect(() => {
 		const interval = setInterval(() => getHealth(), 2000); // Update every 2 seconds
 		return() => clearInterval(interval);
-    }, [getHeath]);
+    }, [getHealth]);
 
     if (error){
         return (<div className={"error"}>Error found when fetching from API</div>)
