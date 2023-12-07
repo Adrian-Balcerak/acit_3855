@@ -76,18 +76,18 @@ services:
       - process
       - audit
 
-  # health:
-  #   build:
-  #     context: ./../health
-  #     dockerfile: dockerfile
-  #   ports:
-  #     - "8120:8120"
-  #   environment:
-  #     - TARGET_ENV=test
-  #   volumes:
-  #     - "/etc/localtime:/etc/localtime:ro"
-  #     - "/home/azureuser/config/health:/config"
-  #     - /home/azureuser/logs:/logs
+  health:
+    build:
+      context: ./../health
+      dockerfile: dockerfile
+    ports:
+      - "8120:8120"
+    environment:
+      - TARGET_ENV=test
+    volumes:
+      - "/etc/localtime:/etc/localtime:ro"
+      - "/home/azureuser/config/health:/config"
+      - /home/azureuser/logs:/logs
 
   zookeeper:
     image: wurstmeister/zookeeper
