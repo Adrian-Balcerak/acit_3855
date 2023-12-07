@@ -99,7 +99,7 @@ def report_infrared(body):
     return Response("🙏🔥🔥", 201)
 
 def get_health():
-    status = {status: "Running"}
+    status = {'status': "Running"}
     return Response(json.dumps(status['payload'], indent=1), 200)
 
 app = connexion.FlaskApp(__name__, specification_dir='')
