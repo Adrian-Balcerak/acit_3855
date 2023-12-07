@@ -100,7 +100,7 @@ def report_infrared(body):
 
 def get_health():
     status = {'status': "Running"}
-    return Response(json.dumps(status['payload'], indent=1), 200)
+    return Response(json.dumps(status, indent=1), 200)
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)

@@ -99,7 +99,7 @@ def get_infrared_report(index):
 
 def get_health():
     status = {'status': "Running"}
-    return Response(json.dumps(status['payload'], indent=1), 200)
+    return Response(json.dumps(status, indent=1), 200)
 
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 
