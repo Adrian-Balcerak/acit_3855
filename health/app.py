@@ -79,12 +79,13 @@ def check_health():
     except:
         results["processor"] = "Down"
     try:
+        results["audit"] = audit.json()['status']
         audit = requests.get(app_config['targets']['audit'])
         results["audit"] = audit.json()['status']
     except:
         results["audit"] = "Down"
     
-    results["last_u"] = datetime.datetime.now()
+    results["last_update"] = datetime.datetime.now()
 
     logger.debug(results)
 
