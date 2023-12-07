@@ -1,0 +1,10 @@
+version: 1
+datastore:
+  filename: data.json
+scheduler:
+  period_sec: 5
+targets:
+  receiver: http://20.200.126.250:8080/health
+  storage: http://20.200.126.250:8090/health
+  processor: http://20.200.126.250:8100/health
+  audit: http://20.200.126.250:8110/health

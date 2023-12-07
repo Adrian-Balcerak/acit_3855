@@ -77,6 +77,28 @@ paths:
                     type: string
         "404":
           description: Not Found
+  /health:
+    get:
+      summary: says if it's "Running"
+      operationId: app.get_health
+      responses:
+        "200":
+          description: Successfully returned a health status
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: "#/components/schemas/Health"
+        "400":
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
 components:
   schemas:
     PatrolReport:
@@ -125,4 +147,11 @@ components:
         status_code:
           type: integer
           example: 0
-
+    Health:
+      required: 
+      - status
+      type: object
+      properties: 
+        status_code:
+          type: string
+          example: "Running"

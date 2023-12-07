@@ -30,6 +30,28 @@ paths:
                 properties:
                   message:
                     type: string
+  /health:
+    get:
+      summary: says if it's "Running"
+      operationId: app.get_health
+      responses:
+        "200":
+          description: Successfully returned a health status
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: "#/components/schemas/Health"
+        "400":
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
 components:
   schemas:
     ReadingStats:
@@ -59,4 +81,11 @@ components:
           type: string
           example: "2023-11-02 09:41:25.829461"
       type: object
-
+    Health:
+      required: 
+      - status
+      type: object
+      properties: 
+        status_code:
+          type: string
+          example: "Running"

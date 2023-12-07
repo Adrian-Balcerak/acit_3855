@@ -128,6 +128,29 @@ paths:
                 properties:
                   message:
                     type: string
+  /health:
+    get:
+      summary: says if it's "Running"
+      operationId: app.get_health
+      responses:
+        "200":
+          description: Successfully returned a health status
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: "#/components/schemas/Health"
+        "400":
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+              
 components:
   schemas:
     PatrolReport:
@@ -158,7 +181,6 @@ components:
         trace_id:
           type: string
           example: 7047773b-e946-411b-92ca-94c851ce3c34
-
     SensorReport:
       required:
       - sensor_id
@@ -185,3 +207,11 @@ components:
         trace_id:
           type: string
           example: 7047773b-e946-411b-92ca-94c851ce3c34
+    Health:
+      required: 
+      - status
+      type: object
+      properties: 
+        status_code:
+          type: string
+          example: "Running"

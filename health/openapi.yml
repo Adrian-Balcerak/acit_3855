@@ -1,0 +1,58 @@
+openapi: 3.0.0
+info:
+  description: This API provides health status
+  version: "1.0.0"
+  title: Health API
+  contact:
+    email: abalcerak@mybcit.ca
+paths:
+  /health:
+    get:
+      summary: return JSON showing last health check results
+      operationId: app.get_health
+      description: Gets health report from the event store
+      responses:
+        "200":
+          description: Successfully
+          content:
+            application/json:
+                schema:
+                  type: object
+                  items:
+                    $ref: "#/components/schemas/HealthReport"
+      "400":
+        description: Invalid request
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                message:
+                  type: string
+
+components:
+  schemas:
+    HealthReport:
+      required:
+      - receiver
+      - storage
+      - processing
+      - audit
+      - last_update
+      type: object
+      properties:
+        receiver:
+          type: string
+          example: "Running"
+        storage:
+          type: string
+          example: "Running"
+        processing:
+          type: string
+          example: "Running"
+        audit:
+          type: string
+          example: "Running"
+        timestamp:
+          format: date-time
+          example: 2013-08-15T13:15:53.002Z

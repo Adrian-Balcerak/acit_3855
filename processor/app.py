@@ -70,7 +70,6 @@ def get_stats():
     return Response(json.dumps(obj), 200)
     
 
-
 def populate_stats():
     logger.info("Start Periodic Processing")
 
@@ -107,6 +106,10 @@ def populate_stats():
     with open(app_config['datastore']['filename'], "w") as outfile:
         outfile.write(json_obj)
     print('written timestamp')
+
+def get_health():
+    status = {status: "Running"}
+    return Response(json.dumps(status['payload'], indent=1), 200)
 
 def init_scheduler():
     sched = BackgroundScheduler(daemon=True)

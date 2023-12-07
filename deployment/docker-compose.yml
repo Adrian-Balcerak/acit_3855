@@ -76,6 +76,19 @@ services:
       - process
       - audit
 
+  health:
+    build:
+      context: ./../health
+      dockerfile: dockerfile
+    ports:
+      - "8120:8120"
+    environment:
+      - TARGET_ENV=test
+    volumes:
+      - "/etc/localtime:/etc/localtime:ro"
+      - "/home/azureuser/config/health:/config"
+      - /home/azureuser/logs:/logs
+
   zookeeper:
     image: wurstmeister/zookeeper
     hostname: zookeeper
@@ -83,7 +96,6 @@ services:
       - "2181:2181"
     volumes:
       - "/home/<username>/zookeeper/data:/opt/zookeeper-3.4.13/data"
-
 
   kafka:
     image: wurstmeister/kafka
@@ -121,7 +133,6 @@ services:
       - '3306'  # Opens port 3306 on the container
     volumes:
       - my-db:/var/lib/mysql  # Where our data will be persisted
-
 
 volumes:
   my-db:

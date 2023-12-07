@@ -98,6 +98,10 @@ def report_infrared(body):
     logger.info(f'Returned Event {event_name} response (Id: {trace_id}) with status {str(201)}')
     return Response("🙏🔥🔥", 201)
 
+def get_health():
+    status = {status: "Running"}
+    return Response(json.dumps(status['payload'], indent=1), 200)
+
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 

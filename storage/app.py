@@ -117,6 +117,10 @@ def get_report_infrared(timestamp, timestamp_end):
 
     return Response(json.dumps(results_list), 200)
 
+def get_health():
+    status = {status: "Running"}
+    return Response(json.dumps(status['payload'], indent=1), 200)
+
 def process_messages():
     """ Process event messages """
     hostname = "%s:%d" % (db_config["events"]["hostname"],
