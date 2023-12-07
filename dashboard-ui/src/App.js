@@ -21,6 +21,7 @@ function App() {
                 <h1>Audit Endpoints</h1>
                 {rendered_endpoints}
                 <h1>Health Status</h1>
+                <HealthStatus/>
             </div>
         </div>
     );
