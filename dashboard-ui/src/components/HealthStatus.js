@@ -29,7 +29,7 @@ export default function AppStats() {
     useEffect(() => {
 		const interval = setInterval(() => getHealth(), 2000); // Update every 2 seconds
 		return() => clearInterval(interval);
-    }, [getStats]);
+    }, [getHeath]);
 
     if (error){
         return (<div className={"error"}>Error found when fetching from API</div>)
@@ -52,9 +52,6 @@ export default function AppStats() {
 							<td># Storage: {health['storage']}</td>
 							<td># Processor: {health['processor']}</td>
 							<td># Audit: {health['audit']}</td>
-						</tr>
-						<tr>
-							<td colspan="2">Count of positive statuses: {stats['num_positive_status']}</td>
 						</tr>
 					</tbody>
                 </table>
