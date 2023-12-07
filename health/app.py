@@ -84,7 +84,7 @@ def check_health():
     except:
         results["audit"] = "Down"
     
-    results["timestamp"] = datetime.datetime.now()
+    results["last_update"] = datetime.datetime.now()
 
     logger.debug(results)
 
