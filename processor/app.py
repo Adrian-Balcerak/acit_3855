@@ -108,7 +108,7 @@ def populate_stats():
     print('written timestamp')
 
 def get_health():
-    status = {status: "Running"}
+    status = {'status': "Running"}
     return Response(json.dumps(status['payload'], indent=1), 200)
 
 def init_scheduler():
