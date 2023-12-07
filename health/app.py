@@ -69,22 +69,22 @@ def check_health():
     except:
         results["receiver"] = "Down"
     try:
-        results["storage"] = receiver.json()['status']
         storage = requests.get(app_config['targets']['storage'])
+        results["storage"] = storage.json()['status']
     except:
         results["storage"] = "Down"
     try:
-        results["processor"] = storage.json()['status']
         processor = requests.get(app_config['targets']['processor'])
+        results["processor"] = processor.json()['status']
     except:
         results["processor"] = "Down"
     try:
-        results["audit"] = processor.json()['status']
         audit = requests.get(app_config['targets']['audit'])
+        results["audit"] = audit.json()['status']
     except:
         results["audit"] = "Down"
     
-    results["last_update"] = datetime.datetime.now()
+    results["last_u"] = datetime.datetime.now()
 
     logger.debug(results)
 
