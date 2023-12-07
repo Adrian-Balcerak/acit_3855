@@ -20,15 +20,15 @@ paths:
                   type: object
                   items:
                     $ref: "#/components/schemas/HealthReport"
-      "400":
-        description: Invalid request
-        content:
-          application/json:
-            schema:
-              type: object
-              properties:
-                message:
-                  type: string
+        "400":
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
 
 components:
   schemas:
