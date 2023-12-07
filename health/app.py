@@ -79,7 +79,6 @@ def check_health():
     except:
         results["processor"] = "Down"
     try:
-        results["audit"] = audit.json()['status']
         audit = requests.get(app_config['targets']['audit'])
         results["audit"] = audit.json()['status']
     except:
