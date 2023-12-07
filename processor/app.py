@@ -44,6 +44,7 @@ def get_stats():
             stats = json.load(file)
     except:
         fp = open(app_config['datastore']['filename'], 'w')
+        a = datetime.datetime.now()
         fp.write(json.dumps({
     "num_reports": 0,
     "num_infrared_reports": 0,
@@ -57,7 +58,7 @@ def get_stats():
     "num_infrared_reports": 0,
     "num_patrol_reports": 0,
     "num_positive_status": 0,
-    "timestamp": "2023-11-02 09:41:25.829461"
+    "timestamp": a
 }
 
     obj = {"num_reports": stats['num_reports'], "num_infrared_reports": stats["num_infrared_reports"],
